@@ -1,0 +1,45 @@
+.navStyle {
+    background-color: #1A1C1D;
+}
+
+
+/* 큰 화면 */
+@media screen and (min-width:1000px) {
+  .navStyle {
+    height: 80px;
+  }
+}
+
+.navText {
+  color: white;
+  font-size: 15px;
+  margin: 0px 10px;
+}
+
+.navText:hover {
+  color: #00d9a5;
+}
+
+.navText__current {
+  color: #00d9a5;
+}
+
+.logoImg {
+
+  width: 150px;
+  height: 32px;
+  margin-left: 20px;
+}
+
+/* 작은 화면 */
+@media screen and (max-width:500px) {
+  .logoImg {
+    width: 100px;
+    height: 22px;
+  }
+}
+
+.menuIcon {
+  font-size: 25px;
+  color: white;
+}
